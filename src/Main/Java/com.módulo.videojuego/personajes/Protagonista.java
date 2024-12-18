@@ -18,6 +18,7 @@ public class Protagonista extends EquipoA {
     @Override
     public void emitirSonidoDeDolor (){
         System.out.println("wwwwshhh");
+
     }
 
 
