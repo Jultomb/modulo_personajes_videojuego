@@ -1,25 +1,29 @@
-package com.módulo.videojuego.personajes;
+package com.módulo.videojuego.personajes.equipoA;
 
-public class Protagonista extends EquipoA {
+
+import com.módulo.videojuego.personajes.Personaje;
+
+public class Protagonista extends Personaje {
 
     private String nombre;
-    private static final int UNIDADES_DE_SALTO =10;
+    private static final int UNIDADES_DE_SALTO = 10;
 
     public Protagonista(int posiciónX, int posiciónY, String nombre) {
         super(posiciónX, posiciónY);
         this.nombre = nombre;
     }
-    public void recibirCura (int puntos){
+
+    public void recibirCura(int puntos) {
         puntosDeVida += puntos;
     }
-    public void saltar(){
+
+    public void saltar() {
         posiciónY += UNIDADES_DE_SALTO;
     }
+
     @Override
-    public void emitirSonidoDeDolor (){
+    public void emitirSonidoDeDolor() {
         System.out.println("wwwwshhh");
 
     }
-
-
 }

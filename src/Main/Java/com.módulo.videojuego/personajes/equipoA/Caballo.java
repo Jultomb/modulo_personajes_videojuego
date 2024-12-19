@@ -1,8 +1,8 @@
-package com.módulo.videojuego.personajes;
+package com.módulo.videojuego.personajes.equipoA;
 
-import java.security.PublicKey;
+import com.módulo.videojuego.personajes.Personaje;
 
-public class Caballo extends EquipoA{
+public class Caballo extends Personaje {
 
     private String nombre;
     private static final int UNIDADES_DE_SALTO = 30;
@@ -22,4 +22,3 @@ public class Caballo extends EquipoA{
         System.out.println("Ujujujuju");
     }
 }
-

@@ -1,11 +1,11 @@
 package com.módulo.videojuego.personajes;
 
-public class EquipoA {
+public class Personaje {
     protected int puntosDeVida = 100;
     protected int posiciónX = 0;
     protected int posiciónY = 0;
 
-    public EquipoA(int posiciónX, int posiciónY){
+    public Personaje(int posiciónX, int posiciónY){
         this.posiciónX = posiciónX;
         this.posiciónY = posiciónY;
     }
